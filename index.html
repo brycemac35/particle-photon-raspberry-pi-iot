@@ -233,11 +233,14 @@ Note that Advanced users can also use the pin numbers, so D7 = pin 7 on Photon b
 
 
    
-   
+   <input type="button" value="digitalRead(D2);" onClick="{
+    sendToParticle('digitalWrite(D2,1);')}">
+   <br>
    
 <input type="button" value="digitalRead(D6);" onClick="{
     sendToParticle('digitalRead(D6);')
-}"><br><br>
+}">
+   <br>
   
    
 <input type="button" value="analogRead(A0);" onClick="{
